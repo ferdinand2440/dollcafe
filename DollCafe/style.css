@@ -1,0 +1,92 @@
+.nav__container {
+	align-items: center;
+	background-color: #000000;
+	padding: 30px;
+	display: flex;
+	justify-content:space-around;
+	width: 100%;
+}
+
+.nav__icon__logo {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	max-width: 10vh;
+}
+
+.nav__title {
+	font-size: 50px;
+	color: white;
+}
+
+.nav__login__btn {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	/* color: #000000; */
+	cursor: pointer;
+	/* font-size: 30px; 
+	font-weight: 600px; */
+	height: 40px;
+	width: 160px;
+	max-width: fit-content;
+}
+
+.text__btn{
+	color:rgb(0, 0, 0);
+	background-color: #ffff;
+	height: 40px;
+	width: 160px;
+}
+
+.text__btn:hover {
+	color:rgb(255, 255, 255);
+	background-color: rgb(188, 92, 2);
+	height: 40px;
+	width: 160px;
+}
+
+.nav__menu {
+	background-color: #212121;
+	display: flex;
+	justify-content: center;
+	padding: 2%;
+}
+
+.menu__lista {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu__item {
+	list-style: none;
+	font-size: 20px;
+}
+
+.menu__link {
+	margin-right: 2rem;
+	color: white;
+	text-transform: lowercase;
+}
+
+.menu__link:hover{
+	color: rgb(188, 92, 2);
+}
+
+@media screen and ( max-width: 768px) {
+	.nav__container{
+		display: flex;
+		flex-flow: column wrap;
+	}
+	.menu__lista{
+		display: flex;
+		justify-content: space-between;
+	}
+	.menu__item {
+		font-size: small;
+	}
+	.nav__login__btn{
+		max-width:fit-content;
+		margin-top: 2%;
+	}
+}

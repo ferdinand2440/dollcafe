@@ -1,0 +1,11 @@
+.banner {
+    background: url("./Img/top-view-coffee-beans-and-coffee-capsules\ \(1\).jpg") no-repeat center / cover;
+    width: 100%;
+    padding: 300px;
+}
+
+.banner__titulo{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
