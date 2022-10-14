@@ -1,5 +1,5 @@
 .banner {
-    background: url("./Img/top-view-coffee-beans-and-coffee-capsules\ \(1\).jpg") no-repeat center / cover;
+    background: url("./Img/coffee-g1914ae4b9_1920.jpg") no-repeat center / cover;
     width: 100%;
     padding: 300px;
 }
@@ -8,4 +8,11 @@
     display: flex;
     justify-content: center;
     padding: 40px;
+}
+
+@media screen and (max-width: 810px){
+    .banner {
+        width: 100%;
+        padding-top: 3%;
+}
 }

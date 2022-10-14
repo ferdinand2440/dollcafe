@@ -30,6 +30,7 @@
 	height: 40px;
 	width: 160px;
 	max-width: fit-content;
+	border-radius: 10px;
 }
 
 .text__btn{
@@ -37,6 +38,7 @@
 	background-color: #ffff;
 	height: 40px;
 	width: 160px;
+	border-radius: 10px;
 }
 
 .text__btn:hover {
@@ -44,6 +46,7 @@
 	background-color: rgb(188, 92, 2);
 	height: 40px;
 	width: 160px;
+	transition: all 1.5s;
 }
 
 .nav__menu {
@@ -70,7 +73,8 @@
 }
 
 .menu__link:hover{
-	color: rgb(188, 92, 2);
+	color:rgb(188, 92, 2);
+	transition: all 1.5s;
 }
 
 @media screen and ( max-width: 768px) {
@@ -88,5 +92,6 @@
 	.nav__login__btn{
 		max-width:fit-content;
 		margin-top: 2%;
+		
 	}
 }

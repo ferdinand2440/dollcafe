@@ -1,0 +1,44 @@
+
+.footer1{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    
+}
+
+.tienda{
+    list-style: none;
+}
+
+.sobredollcafe{
+    list-style: none;
+}
+
+.contacto{
+    list-style: none;
+    
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 2rem;
+    padding: 1%;
+    
+    
+    
+}
+
+.follow{
+    margin-top: 1%;
+}
+
+.insta, .face, .twitter{
+    color:black;
+}
+
+.insta:hover, .face:hover, .twitter:hover{
+    color:rgb(188, 92, 2);
+}
