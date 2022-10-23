@@ -1,0 +1,77 @@
+.recycle{
+    background-image: url(./Img/Reciclaje/recycle-background.webp);
+    background-repeat: no-repeat;
+    size: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+.video{
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+.caption{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 90px;
+    background-color: white;
+}
+.container__main{
+    box-sizing: border-box;
+    padding: auto;    
+}
+.container__main h2{
+    padding-bottom: 15px;
+}
+
+.recycle__info{
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(73, 70, 70);
+    font-size: larger;
+}
+.recycle__info p{
+    color: black;
+    font-size: larger;
+}
+iframe{
+    display: block;
+    margin: auto;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+.line{
+    width: 30%;
+    height: 8px;
+    align-items: center;
+    background: rgb(222, 210, 210);
+    margin: auto;
+    border-radius: 10px;
+}
+.footer{
+    font-size: small;
+    color: black;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+@media screen and ( max-width: 768px) {
+	.video{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    iframe{
+        display: block;
+        margin: auto;
+        width: 70%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .caption{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}

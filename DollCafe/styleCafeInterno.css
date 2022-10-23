@@ -1,0 +1,159 @@
+.tittle__cafes {
+    text-align: center;
+    padding: 10px;
+    color: rgb(245, 235, 235);
+}
+
+.descripcion__area {
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(245, 235, 235);
+    font-size: larger;
+}
+
+.container__cafes {
+    width: 100%;
+    display: flex;
+    gap: 50;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cafe__types {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(201, 201, 201);
+    border: solid rgb(208, 208, 193) 2px;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    cursor: default;
+}
+
+.cafe__types:hover {
+    border: solid rgb(185, 168, 168) 2px;
+    background-color: rgba(185, 168, 168, 0.3);
+}
+
+.container__cafes img {
+    width: 100%;
+}
+
+.container__cafes img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.cafe__nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+hr {
+    width: 100%;
+    height: 4px;
+    background: rgb(222, 210, 210);
+    margin: 20px 5px;
+}
+
+.enlace {
+    background: beige;
+    padding: 8px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: #212121;
+    background-image: url(./Img/top-view-coffee-beans-and-coffee-capsules.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.cafe__descripcion,.cafe__nombre {
+    color: rgb(245, 235, 235);
+}
+.container__main{
+    background-color: rgba(38, 36, 36, 0.8);
+}
+.tittle{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container__prod{
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image:url(./Img/Productos/background.png);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.container__img img{
+    margin-left: 25px;
+    width: 250px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.container__img img:hover{
+    transform: scale(1.2);
+}
+
+.short__descr{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bolder;
+    padding-bottom: 200px;
+    
+}
+
+.zoom__img{
+    display: flex;
+    position: static;
+    box-sizing: border-box;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.zoom__img img{
+    width: 250px;
+    transition: 0.5s all ease-in-out;
+}
+.zoom__img:hover img{
+    transform: scale(1.5);
+}
+
+
+
+@media screen and ( max-width: 768px){
+    .container__cafes{
+        display: flex;
+        justify-content: stretch;
+        font-size: smaller;
+           
+    }
+    .container__cafes img{
+        width: 100%;
+    }
+    .cafe__types{
+        width: 100px;
+        height: 200px;
+    }
+    .enlace a{
+        font-weight: smaller;
+    }
+}
