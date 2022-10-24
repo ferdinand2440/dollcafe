@@ -1,0 +1,26 @@
+.social__nav{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: rgba(106, 89, 89, 0.5);
+}
+.social__item{
+    margin-left: 10px;
+    
+}
+.social__item img{
+    width: 30px;
+}
+.icono{
+    margin-left: 25px;
+}
+footer p{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: small;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}

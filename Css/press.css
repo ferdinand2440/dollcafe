@@ -1,0 +1,28 @@
+.press {
+    background-color: rgb(52, 28, 28);
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.welcome {
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.discover {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome {
+        justify-content: center;
+    }
+
+    .discover {
+        justify-content: center;
+        font-size: small;
+    }
+}
