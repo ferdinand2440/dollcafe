@@ -78,7 +78,7 @@ hr {
 
 body {
     background-color: #212121;
-    background-image: url(./Img/top-view-coffee-beans-and-coffee-capsules.jpg);
+    background-image: url("../Img/top-view-coffee-beans-and-coffee-capsules.jpg");
     background-size: 100%;
     background-repeat: repeat;
 }
@@ -96,7 +96,7 @@ body {
 
 .container__prod{
     background-color: rgba(255, 255, 255, 0.8);
-    background-image:url(./Img/Productos/background.png);
+    background-image:url("../Img/Productos/background.png");
     align-items: center;
     align-content: center;
     text-align: center;

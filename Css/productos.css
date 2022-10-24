@@ -18,20 +18,20 @@
 }
 
 .producto__imagen1 {
-    background: url(./Img/coffee-1323357.jpg) no-repeat center /cover;
+    background: url("../Img/coffee-1323357.jpg") no-repeat center /cover;
     background-position: 20% 80%;
     border: 2px solid #000000;
     
 }
 
 .producto__imagen2 {
-    background: url(./Img/jisu-han--LQJ7fB9amY-unsplash.jpg) no-repeat center /cover;
+    background: url("../Img/jisu-han--LQJ7fB9amY-unsplash.jpg") no-repeat center /cover;
     border: 2px solid #000000;
 
 }
 
 .producto__imagen3 {
-    background: url(./Img/capsula2.PNG) no-repeat center/cover;
+    background: url("../Img/capsula2.PNG") no-repeat center/cover;
     border: 2px solid #000000;
 }
 

@@ -77,7 +77,7 @@
 }
 .cafes{
     background-color: #212121;
-    background-image: url(./Img/top-view-coffee-beans-and-coffee-capsules.jpg);
+    background-image: url("../Img/top-view-coffee-beans-and-coffee-capsules.jpg");
     background-size: 100%;
     background-repeat: repeat;
 }

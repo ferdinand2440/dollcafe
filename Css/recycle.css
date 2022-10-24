@@ -1,9 +1,17 @@
 .recycle{
-    background-image: url(./Img/Reciclaje/recycle-background.webp);
+    background-image: url("../Img/recycle-background.webp");
     background-repeat: no-repeat;
     size: 100%;
     background-color: rgba(255, 255, 255, 0.8);
     
+}
+
+.encontranos{
+    background-image: url("../Img/background_test.jpg");
+    background-repeat: no-repeat;
+    size: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+
 }
 .video{
     display: block;
